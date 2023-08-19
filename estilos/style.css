@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background: url('../imagens/fundo_madeira.jpg') no-repeat top center;
     background-size: cover;/*Para cobrir a tela inteira*/
     background-attachment: fixed;/*Fixar para nao haver rolagem*/
 }
@@ -58,5 +58,5 @@ section#redes_sociais img:hover {
     border: 2px solid rgba(255, 255, 255, 0.6);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
-    transition: transform .4s, border .5s;
+    transition: transform .4s, border .5s;/*Serve para aplicar efeito de transicoes*/
 }
